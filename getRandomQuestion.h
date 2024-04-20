@@ -2,4 +2,4 @@
 
 #include <string>
 
-std::string getRandomQuestion(int x);
+void getRandomQuestion(int x);

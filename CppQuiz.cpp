@@ -8,6 +8,8 @@
 #include <string>
 // using namespace std;
 
+//std::string getRandomQuestion(int x);
+
 int main()
 {
     srand((unsigned)time(0));
@@ -18,27 +20,8 @@ int main()
 
     std::cout << "Select Category, \n 1) APlus \n 2) NetPlus \n 3) ... \n"; // REPLACE ... WITH OTHER CATEGORIES LATER!!!!!
     int x{};
-    std::cin >> x;
+    std::cin >> x; // get category selection and put into x variable
 
-    if (x == 1) // runs if APlus is selected
-    {
-        system("cls"); //clear screen
-
-        getRandomQuestion(x);
-
-    }
-    else if (x == 2) // runs if NetPlus is selected
-    {
-        system("cls"); //clear screen
-
-        getRandomQuestion(x);
-
-    }
-    else if (x == 3) // runs if ... is selected
-    {
-        system("cls"); //clear screen
-
-        getRandomQuestion(x);
-
-    }
+    system("cls"); // clear screen
+    getRandomQuestion(x);
 }
