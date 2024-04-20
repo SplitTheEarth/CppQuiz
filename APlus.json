@@ -1,12 +1,147 @@
 [
   {
-    "question": "What is the capital of France?",
-    "answers": [ "Paris", "London", "Berlin" ],
-    "correct_answer": "Paris"
+    "question": "What does CPU stand for?",
+    "answers": [ "Central Processing Unit", "Computer Processing Unit", "Central Processor Unit", "Central Power Unit" ],
+    "correct_answer": "Central Processing Unit"
   },
   {
-    "question": "What is 2 + 2?",
-    "answers": [ "3", "4", "5" ],
-    "correct_answer": "4"
+    "question": "What is the maximum transmission speed of USB 3.0?",
+    "answers": [ "480 Mbps", "5 Gbps", "10 Gbps", "20 Gbps" ],
+    "correct_answer": "5 Gbps"
+  },
+  {
+    "question": "Which type of RAM has a clock speed that is synchronized with the CPU?",
+    "answers": [ "DDR2", "DDR3", "DDR4", "SDRAM" ],
+    "correct_answer": "DDR4"
+  },
+  {
+    "question": "What is the default subnet mask for a Class C network?",
+    "answers": [ "255.0.0.0", "255.255.0.0", "255.255.255.0", "255.0.0.255" ],
+    "correct_answer": "255.255.255.0"
+  },
+  {
+    "question": "Which RAID level provides fault tolerance by mirroring data on multiple drives?",
+    "answers": [ "RAID 0", "RAID 1", "RAID 5", "RAID 10" ],
+    "correct_answer": "RAID 1"
+  },
+  {
+    "question": "What does BIOS stand for?",
+    "answers": [ "Basic Input/Output System", "Built-In Operating System", "Binary Input/Output System", "Base Input/Output System" ],
+    "correct_answer": "Basic Input/Output System"
+  },
+  {
+    "question": "What type of cable is commonly used to connect a modem to a computer?",
+    "answers": [ "Ethernet", "HDMI", "VGA", "USB" ],
+    "correct_answer": "Ethernet"
+  },
+  {
+    "question": "Which interface is typically used to connect an external hard drive to a computer?",
+    "answers": [ "USB", "PS/2", "Serial", "Parallel" ],
+    "correct_answer": "USB"
+  },
+  {
+    "question": "Which Windows key combination is used to open Task Manager?",
+    "answers": [ "Ctrl + Shift + Esc", "Alt + F4", "Ctrl + Alt + Del", "Win + R" ],
+    "correct_answer": "Ctrl + Shift + Esc"
+  },
+  {
+    "question": "What is the purpose of a heat sink in a computer?",
+    "answers": [ "To dissipate heat from the CPU", "To increase the speed of the CPU", "To store data temporarily", "To control fan speed" ],
+    "correct_answer": "To dissipate heat from the CPU"
+  },
+  {
+    "question": "Which type of printer uses toner to produce output?",
+    "answers": [ "Laser", "Inkjet", "Dot matrix", "Thermal" ],
+    "correct_answer": "Laser"
+  },
+  {
+    "question": "What type of display technology does not require a backlight?",
+    "answers": [ "OLED", "LCD", "LED", "Plasma" ],
+    "correct_answer": "OLED"
+  },
+  {
+    "question": "Which tool is used to test the continuity of a circuit?",
+    "answers": [ "Multimeter", "Oscilloscope", "Function generator", "Logic analyzer" ],
+    "correct_answer": "Multimeter"
+  },
+  {
+    "question": "What is the maximum number of devices supported by a SATA port?",
+    "answers": [ "1", "2", "4", "8" ],
+    "correct_answer": "1"
+  },
+  {
+    "question": "What is the primary purpose of an operating system?",
+    "answers": [ "Manage hardware resources", "Connect to the internet", "Run applications", "Display graphics" ],
+    "correct_answer": "Manage hardware resources"
+  },
+  {
+    "question": "Which type of port is commonly used to connect a printer to a computer?",
+    "answers": [ "USB", "Ethernet", "HDMI", "VGA" ],
+    "correct_answer": "USB"
+  },
+  {
+    "question": "What is the function of RAM in a computer?",
+    "answers": [ "Temporarily store data and instructions", "Control the speed of the CPU", "Display graphics", "Permanent storage of data" ],
+    "correct_answer": "Temporarily store data and instructions"
+  },
+  {
+    "question": "Which component of a computer converts AC power into DC power?",
+    "answers": [ "Power supply", "Motherboard", "CPU", "RAM" ],
+    "correct_answer": "Power supply"
+  },
+  {
+    "question": "What is the purpose of the POST process during the boot sequence?",
+    "answers": [ "Check hardware for errors", "Connect to the internet", "Load the operating system", "Display the BIOS settings" ],
+    "correct_answer": "Check hardware for errors"
+  },
+  {
+    "question": "Which component of a computer is responsible for storing data permanently?",
+    "answers": [ "Hard drive", "RAM", "CPU", "Power supply" ],
+    "correct_answer": "Hard drive"
+  },
+  {
+    "question": "What is the purpose of an expansion card in a computer?",
+    "answers": [ "Add functionality to the computer", "Increase the speed of the CPU", "Display graphics", "Store data permanently" ],
+    "correct_answer": "Add functionality to the computer"
+  },
+  {
+    "question": "Which type of connector is commonly used to connect a monitor to a computer?",
+    "answers": [ "VGA", "USB", "Ethernet", "HDMI" ],
+    "correct_answer": "VGA"
+  },
+  {
+    "question": "What is the function of the CMOS battery in a computer?",
+    "answers": [ "Maintain BIOS settings", "Store data permanently", "Control the speed of the CPU", "Display graphics" ],
+    "correct_answer": "Maintain BIOS settings"
+  },
+  {
+    "question": "Which component of a computer interprets and executes instructions?",
+    "answers": [ "CPU", "RAM", "Motherboard", "Hard drive" ],
+    "correct_answer": "CPU"
+  },
+  {
+    "question": "What is the function of the Northbridge chipset on a motherboard?",
+    "answers": [ "Handle communication between CPU and memory", "Handle communication between CPU and peripherals", "Control power distribution", "Manage data storage" ],
+    "correct_answer": "Handle communication between CPU and memory"
+  },
+  {
+    "question": "Which type of file system is commonly used in Windows operating systems?",
+    "answers": [ "NTFS", "HFS+", "EXT4", "FAT32" ],
+    "correct_answer": "NTFS"
+  },
+  {
+    "question": "What is the purpose of thermal paste in a computer?",
+    "answers": [ "Improve heat transfer between CPU and heatsink", "Protect components from dust", "Increase the speed of the CPU", "Connect peripherals to the computer" ],
+    "correct_answer": "Improve heat transfer between CPU and heatsink"
+  },
+  {
+    "question": "What is the function of a graphics card in a computer?",
+    "answers": [ "Process and display graphics", "Store data permanently", "Control the speed of the CPU", "Manage power distribution" ],
+    "correct_answer": "Process and display graphics"
+  },
+  {
+    "question": "Which key is commonly used to access the BIOS settings during boot?",
+    "answers": [ "Del", "F2", "Esc", "F12" ],
+    "correct_answer": "Del"
   }
 ]

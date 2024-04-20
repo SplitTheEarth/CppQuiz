@@ -1,12 +1,157 @@
 [
   {
-    "question": "NetPLus 123123",
-    "answers": [ "Paris", "London", "Berlin" ],
-    "correct_answer": "Paris"
+    "question": "What is the maximum length of a CAT6 Ethernet cable segment?",
+    "answers": [ "55 meters", "100 meters", "150 meters", "200 meters" ],
+    "correct_answer": "100 meters"
   },
   {
-    "question": "31231223123?",
-    "answers": [ "3", "4", "5" ],
-    "correct_answer": "4"
+    "question": "Which device operates at the Data Link layer of the OSI model?",
+    "answers": [ "Router", "Hub", "Switch", "Repeater" ],
+    "correct_answer": "Switch"
+  },
+  {
+    "question": "What protocol is used to automatically assign IP addresses to devices on a network?",
+    "answers": [ "DHCP", "DNS", "FTP", "HTTP" ],
+    "correct_answer": "DHCP"
+  },
+  {
+    "question": "What is the default port number for HTTP?",
+    "answers": [ "80", "443", "21", "25" ],
+    "correct_answer": "80"
+  },
+  {
+    "question": "Which wireless standard operates in the 5 GHz frequency band?",
+    "answers": [ "802.11a", "802.11b", "802.11g", "802.11n" ],
+    "correct_answer": "802.11a"
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for logical addressing?",
+    "answers": [ "Physical", "Network", "Transport", "Session" ],
+    "correct_answer": "Network"
+  },
+  {
+    "question": "What type of cable is commonly used to connect a PC to a router's console port?",
+    "answers": [ "RJ45", "RJ11", "DB9", "USB" ],
+    "correct_answer": "RJ45"
+  },
+  {
+    "question": "What device is used to segment a LAN into multiple broadcast domains?",
+    "answers": [ "Hub", "Router", "Switch", "Repeater" ],
+    "correct_answer": "Router"
+  },
+  {
+    "question": "What is the purpose of STP (Spanning Tree Protocol) in a network?",
+    "answers": [ "Prevent broadcast storms", "Provide redundancy", "Secure network traffic", "Encrypt data" ],
+    "correct_answer": "Prevent broadcast storms"
+  },
+  {
+    "question": "Which command-line tool is used to test network connectivity by sending ICMP echo requests?",
+    "answers": [ "ping", "tracert", "netstat", "nslookup" ],
+    "correct_answer": "ping"
+  },
+  {
+    "question": "What is the subnet mask for a /24 network?",
+    "answers": [ "255.255.255.0", "255.255.0.0", "255.0.0.0", "255.0.0.255" ],
+    "correct_answer": "255.255.255.0"
+  },
+  {
+    "question": "Which type of firewall operates at the Application layer of the OSI model?",
+    "answers": [ "Packet-filtering firewall", "Proxy firewall", "Stateful inspection firewall", "Network firewall" ],
+    "correct_answer": "Proxy firewall"
+  },
+  {
+    "question": "What is the default gateway address for a device on the 192.168.1.0/24 network?",
+    "answers": [ "192.168.1.1", "192.168.0.1", "192.168.1.254", "192.168.0.254" ],
+    "correct_answer": "192.168.1.1"
+  },
+  {
+    "question": "Which protocol is used to securely transfer files over a network?",
+    "answers": [ "FTP", "SMTP", "SSH", "Telnet" ],
+    "correct_answer": "SSH"
+  },
+  {
+    "question": "What is the purpose of VLANs (Virtual LANs) in networking?",
+    "answers": [ "Segment broadcast domains", "Provide physical security", "Encrypt network traffic", "Ensure quality of service" ],
+    "correct_answer": "Segment broadcast domains"
+  },
+  {
+    "question": "What is the maximum data rate of Bluetooth 5.0?",
+    "answers": [ "1 Mbps", "3 Mbps", "10 Mbps", "100 Mbps" ],
+    "correct_answer": "3 Mbps"
+  },
+  {
+    "question": "Which protocol is used to translate domain names to IP addresses?",
+    "answers": [ "DNS", "DHCP", "FTP", "SNMP" ],
+    "correct_answer": "DNS"
+  },
+  {
+    "question": "What is the function of ARP (Address Resolution Protocol)?",
+    "answers": [ "Translate IP addresses to MAC addresses", "Translate MAC addresses to IP addresses", "Route packets between networks", "Establish secure connections" ],
+    "correct_answer": "Translate IP addresses to MAC addresses"
+  },
+  {
+    "question": "Which type of attack involves flooding a network with bogus requests to overload its resources?",
+    "answers": [ "DDoS (Distributed Denial of Service)", "Man-in-the-middle", "SQL injection", "Phishing" ],
+    "correct_answer": "DDoS (Distributed Denial of Service)"
+  },
+  {
+    "question": "What type of cable is commonly used to connect two switches together?",
+    "answers": [ "Crossover cable", "Straight-through cable", "Rollover cable", "Patch cable" ],
+    "correct_answer": "Crossover cable"
+  },
+  {
+    "question": "Which port number is commonly used for SMTP (Simple Mail Transfer Protocol)?",
+    "answers": [ "25", "110", "143", "465" ],
+    "correct_answer": "25"
+  },
+  {
+    "question": "What is the function of NAT (Network Address Translation)?",
+    "answers": [ "Translate private IP addresses to public IP addresses", "Encrypt network traffic", "Route packets between networks", "Filter network traffic" ],
+    "correct_answer": "Translate private IP addresses to public IP addresses"
+  },
+  {
+    "question": "What type of device is used to connect multiple devices on the same network segment?",
+    "answers": [ "Switch", "Hub", "Router", "Bridge" ],
+    "correct_answer": "Hub"
+  },
+  {
+    "question": "Which wireless encryption protocol is considered the most secure?",
+    "answers": [ "WEP", "WPA", "WPA2", "WPS" ],
+    "correct_answer": "WPA2"
+  },
+  {
+    "question": "What is the purpose of a MAC address?",
+    "answers": [ "Identify a device on a network", "Translate domain names to IP addresses", "Provide logical addressing", "Encrypt network traffic" ],
+    "correct_answer": "Identify a device on a network"
+  },
+  {
+    "question": "What is the maximum data rate of Gigabit Ethernet?",
+    "answers": [ "100 Mbps", "1 Gbps", "10 Gbps", "100 Gbps" ],
+    "correct_answer": "1 Gbps"
+  },
+  {
+    "question": "Which protocol is used for securely accessing a remote server?",
+    "answers": [ "SSH", "Telnet", "HTTP", "FTP" ],
+    "correct_answer": "SSH"
+  },
+  {
+    "question": "Which IP address range is reserved for documentation and examples?",
+    "answers": [ "10.0.0.0 - 10.255.255.255", "172.16.0.0 - 172.31.255.255", "192.168.0.0 - 192.168.255.255", "169.254.0.0 - 169.254.255.255" ],
+    "correct_answer": "192.168.0.0 - 192.168.255.255"
+  },
+  {
+    "question": "What is the maximum number of hosts in a /27 subnet?",
+    "answers": [ "30", "32", "64", "128" ],
+    "correct_answer": "30"
+  },
+  {
+    "question": "Which protocol is used for sending and receiving email?",
+    "answers": [ "SMTP", "HTTP", "POP3", "IMAP" ],
+    "correct_answer": "SMTP"
+  },
+  {
+    "question": "What is the default subnet mask for a Class C network?",
+    "answers": [ "255.255.255.0", "255.255.0.0", "255.0.0.0", "255.0.0.255" ],
+    "correct_answer": "255.255.255.0"
   }
 ]

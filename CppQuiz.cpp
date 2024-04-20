@@ -1,9 +1,10 @@
 #include "getRandomQuestion.h"
+#include "json/json.h"
 #include <iostream>
 #include <conio.h>
 #include <stdlib.h>
 #include <fstream>
-#include "json/json.h" 
+
 #include <string>
 // using namespace std;
 
@@ -23,27 +24,21 @@ int main()
     {
         system("cls"); //clear screen
 
-        // initialize output from getRandomQuestion to the string "rq" and print it on screen
-        std::string rq = getRandomQuestion(x);
-        std::cout << rq;
+        getRandomQuestion(x);
 
     }
     else if (x == 2) // runs if NetPlus is selected
     {
         system("cls"); //clear screen
 
-        // initialize output from getRandomQuestion to the string "rq" and print it on screen
-        std::string rq = getRandomQuestion(x);
-        std::cout << rq;
+        getRandomQuestion(x);
 
     }
     else if (x == 3) // runs if ... is selected
     {
         system("cls"); //clear screen
 
-        // initialize output from getRandomQuestion to the string "rq" and print it on screen
-        std::string rq = getRandomQuestion(x);
-        std::cout << rq;
+        getRandomQuestion(x);
 
     }
 }
